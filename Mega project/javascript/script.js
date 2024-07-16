@@ -20,8 +20,8 @@ function secondsToMinutesAndSeconds(seconds) {
 async function getsongs(folder){
     // Attaching songs
     currfolder = folder;
-    // let a = await fetch(`https://khanzaingithub.github.io/music-player/Mega%20project/songs/${TuhaiKaha}/`);
-    let a = await fetch(' https://github.com/KhanZaingithub/music-player/tree/main/Mega%20project/songs/TuhaiKaha');
+    let a = await fetch(`https://khanzaingithub.github.io/music-player/Mega%20project/songs/${TuhaiKaha}/`);
+    // let a = await fetch(' https://github.com/KhanZaingithub/music-player/tree/main/Mega%20project/songs/TuhaiKaha');
     let response = await a.text();
     let div = document.createElement("div");
     div.innerHTML = response;
