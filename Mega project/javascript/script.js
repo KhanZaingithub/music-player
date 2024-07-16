@@ -20,7 +20,7 @@ function secondsToMinutesAndSeconds(seconds) {
 async function getsongs(folder){
     // Attaching songs
     currfolder = folder;
-    let a = await fetch(`http://127.0.0.1:5500/${folder}/`);
+    let a = await fetch(`https://khanzaingithub.github.io/music-player/Mega%20project/${songs/TuhaiKaha}/`);
     let response = await a.text();
     let div = document.createElement("div");
     div.innerHTML = response;
